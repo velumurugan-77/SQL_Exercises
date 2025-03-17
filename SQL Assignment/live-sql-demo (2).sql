@@ -112,6 +112,32 @@ on c.REGION_ID = r.REGION_ID;
 
 -- Retrieve departments and the count of employees in each department using INNER JOIN and GROUP BY
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 select departments.department_id, departments.department_name, COUNT(employees.employee_id) employee_count
 from hr.departments
 left JOIN hr.employees 
